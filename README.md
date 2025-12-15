@@ -24,7 +24,7 @@ Input images are resized to **224×224**.
 ## 🗂 Project Structure
 dog-vs-cat-classification-pytorch/
 ├── notebook/
-│ └── dog_vs_cat_classification.ipynb
+│   └── dog_vs_cat_classification.ipynb
 ├── dogvscat.py
 ├── requirements.txt
 └── README.md
