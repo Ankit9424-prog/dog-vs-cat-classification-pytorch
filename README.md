@@ -22,13 +22,14 @@ The CNN consists of:
 Input images are resized to **224×224**.
 
 ## 🗂 Project Structure
+```
 dog-vs-cat-classification-pytorch/
 ├── notebook/
 │   └── dog_vs_cat_classification.ipynb
 ├── dogvscat.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 📊 Dataset
 - Dataset: **Microsoft Dogs vs Cats Dataset (Kaggle)**
@@ -44,26 +45,32 @@ pip install -r requirements.txt
 ```
 ## 🚀 How to Run
 ## Option 1: Google Colab (Recommended)
+```
 Upload the notebook to Google Colab
 Run all cells
 Dataset downloads automatically using kagglehub
-
+```
 ## Option 2: Local Machine
+```
 python dogvscat.py
-
+```
 ## 📈 Training Details
+```
 Epochs: 5
 Batch size: 32
 Optimizer: Adam
 Loss function: CrossEntropyLoss
 Device: CPU / CUDA (auto-detected)
+```
 
 ## 📊 Evaluation
+```
 Accuracy and loss tracked per epoch
 Confusion matrix generated using scikit-learn
 Random test image prediction with confidence score
-
+```
 ## 🛠 Tools & Libraries
+```
 Python=
 PyTorch
 Torchvision
@@ -71,6 +78,7 @@ NumPy
 Matplotlib
 scikit-learn
 Google Colab
+```
 
 ## 🔮 Future Improvements
 Modularize code (model.py, train.py)
