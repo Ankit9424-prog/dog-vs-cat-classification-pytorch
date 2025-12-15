@@ -81,9 +81,10 @@ Google Colab
 ```
 
 ## 🔮 Future Improvements
+```
 Modularize code (model.py, train.py)
 Add validation curves
 Use transfer learning (ResNet, MobileNet)
 Deploy using Streamlit or FastAPI
-
+```
 
